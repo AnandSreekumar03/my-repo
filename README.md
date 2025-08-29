@@ -1,6 +1,4 @@
 # my-repo
-
-#required sql query
 SELECT 
     e.EMP_ID,
     e.FIRST_NAME,
@@ -17,3 +15,5 @@ GROUP BY
     e.EMP_ID, e.FIRST_NAME, e.LAST_NAME, d.DEPARTMENT_NAME
 ORDER BY 
     e.EMP_ID DESC;
+
+
